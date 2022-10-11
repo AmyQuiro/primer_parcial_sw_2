@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let item of researches">
+      <div class="card h-100">
+        <img [src]="item.url" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{item.diagnosis}}</h5>
+          <p class="card-text">Descripcion dada por el usuario: {{item.description}}</p>
+        </div>
+      </div>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+body {
+    background-color: red!important;
+    background-size: auto;
+}
+
+form {
+    margin-top: 10rem!important;
+    max-height: 100px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    border: 1px solid rgb(17, 19, 18);
+    border-radius: 1rem;
+    padding: 12px 20px;
+    background-color: rgb(167, 204, 221);
+}
+
+div.form-group.btn-group {
+    align-items: center;
+    margin: 0 auto;
+}

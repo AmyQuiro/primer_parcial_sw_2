@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="container-fluid">
+        <form action="" class="formater">
+            <h4>Formulario para Registro de Imagenes</h4>
+            <br>
+            <div class="mb-3">
+                <label for="formFileSm" class="form-label">Seleccione una Imagen para Analizarla</label>
+                <input class="form-control form-control" id="formFileSm" (change)="upload($event)" type="file">
+            </div>
+
+            <hr>
+            <div class="controls">
+                <form (ngSubmit)="analize(forma)" #forma="ngForm" class="secondFormater">
+                    <label for="" class="form-label">Descripcion de la imagen</label>
+                    <input ngModel name="description" type="text" class="form-control">
+                    <br>
+                    <div class="centered">
+                        <button type="submit" class="btn btn-dark centered">ANALIZAR</button>
+                    </div>
+                </form>
+            </div>
+        </form>
+    </div>
+</div>
